@@ -83,9 +83,11 @@ public class ZadachiMassiv {
         int neCHet = 0;
         for (int i = 0; i <uliza.length ; i++) {
             if(uliza[i]%2==0){
-                chet++;
+                chet += uliza[i];
+
             }
-            else neCHet++;
+            else {neCHet +=uliza[i];
+            }
         }
         System.out.println("");
        if (chet>neCHet){
